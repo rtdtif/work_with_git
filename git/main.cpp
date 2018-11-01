@@ -1,8 +1,11 @@
 #include <iostream>
+#include <stdlib.h>
 
 int main()
 {
-    std::cout<<"Try to commit this code."<<std::endl;
+    int a;
+    std::cin>>a;
+    std::cout<<"A = "<<a<<std::endl;
 
     return 0;
 }
